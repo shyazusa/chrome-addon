@@ -4,7 +4,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://google.com/*"],
+      "matches": ["http://*/*", "https://*/*"],
       "js": ["jquery-2.2.1.min.js", "myscript.js"]
     }
   ]
